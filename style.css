@@ -25,7 +25,6 @@ body {
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(4, 255px);
-    grid-template-rows: auto;
     row-gap: 1.5rem;
     column-gap: 1.875rem;
     grid-template-areas: 
@@ -159,8 +158,6 @@ body {
     }
     
     .testimonials-grid {
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         'one one one one'
         'two two five five'
@@ -184,8 +181,6 @@ body {
     }
 
     .testimonials-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto;
         grid-template-areas: 
         'one one one one'
         'two two two two'
