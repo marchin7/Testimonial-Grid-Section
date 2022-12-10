@@ -24,6 +24,7 @@ body {
 }
 
 .testimonials-grid {
+    aspect-ratio: 4/1;
     display: grid;
     grid-template-columns: repeat(4, 255px);
     row-gap: 24px;
