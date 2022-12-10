@@ -163,13 +163,10 @@
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: auto;
             grid-template-areas:
-            'one one one two'
-            'five five five five'
-            'three four four four'
-            /*'one one one one'
+            'one one one one'
             'two two five five'
             'three three five five'
-            'four four four four'*/;
+            'four four four four';
         }
     
         .article {
