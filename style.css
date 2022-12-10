@@ -159,6 +159,7 @@ body {
     }
     
     .testimonials-grid {
+        place-content: start;
         grid-template-columns: auto;
         grid-template-rows: auto;
         grid-template-areas: 
@@ -197,11 +198,11 @@ body {
     .testimonials-text {
         font-size: 13.06px;
         padding: 0;
-        word-break: initial;
     }
 
     .testimonials-text-one {
         padding-right: 0.875rem;
+        font: 13.06px;
     }
 
     .testimonials-header {
