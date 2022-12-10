@@ -160,7 +160,7 @@ body {
     
     .testimonials-grid {
         grid-template-columns: auto;
-        grid-template-rows: initial;
+        grid-template-rows: auto auto auto auto;
         grid-template-areas:
         'one one one one'
         'two two five five'
