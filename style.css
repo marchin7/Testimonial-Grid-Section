@@ -169,18 +169,17 @@ body {
     }
 
     .article {
-        padding: 24px 32px 32px 32px;
 
     }
 
     .testimonials-text-one {
-        font-size: 13px;
+
     };
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        height: fit-content;
+        height: 100%;
     }
 
     .testimonials-grid {
@@ -195,15 +194,15 @@ body {
     }
 
     .article {
-        padding: 24px 32px 32px 32px;
+
     }
 
     .testimonials-text {
-        padding: 0;
+
     }
 
     .testimonials-text-one {
-        padding-right: 14px;
+ 
     }
 
     .testimonials-header {
