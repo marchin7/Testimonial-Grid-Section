@@ -26,12 +26,12 @@ body {
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(4, 255px);
-    row-gap: 1.5rem;
-    column-gap: 1.875rem;
+    row-gap: 24px;
+    column-gap: 30px;
     grid-template-areas: 
     'one one two five'
     'three four four five';
-    margin: 4rem 1.5rem;
+    margin: 64px 24px;
 }
 
 .article:nth-child(1) {
@@ -58,9 +58,9 @@ body {
     color: var(--clr-White);
     background-color: var(--clr-White);
     color: var(--clr-White);
-    border-radius: 0.375rem;
-    padding: 1.5rem 2rem 2rem 2rem;
-    box-shadow: 0.8rem 3.75rem 4rem -2rem rgba(80, 90, 110, 0.2);
+    border-radius: 6px;
+    padding: 24px 32px 32px 32px;
+    box-shadow: 12.8px 60px 64px -32px rgba(80, 90, 110, 0.2);
 }
 
 .article-content {
@@ -85,23 +85,23 @@ body {
 .article-three,
 .article-five {
     color: var(--clr-Very-dark-grayish-blue);
-    padding: 1.5rem 1.9375rem 1.625rem 2rem;
+    padding: 24px 31px 26px 32px;
 }
 .article-four {
     background-color: var(--clr-Very-dark-blackish-blue);
-    padding: 1.5rem 2.125rem 1.625rem 2rem;
+    padding: 24px 34px 26px 32px;
 }
 
 .picture {
-    width: 2rem;
-    height: 2rem;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    border: 0.125rem solid transparent;
+    border: 2px solid transparent;
 }
 
 .picture-one,
 .picture-four {
-    border: 0.125rem solid  rgb(169, 129, 235);
+    border: 2px solid  rgb(169, 129, 235);
 }
 
 .user-name {
@@ -109,7 +109,7 @@ body {
 }
 
 .user-status {
-    font-size: 0.6875rem;
+    font-size: 11px;
     font-weight: 400;
     opacity: 0.5;
 }
@@ -123,7 +123,7 @@ body {
 .user-info-details {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
+    margin-left: 16px;
 }
 
 .testimonials {
@@ -133,29 +133,29 @@ body {
 .testimonials-header {
     width: 100%;
     font-weight: 600;
-    margin-top: 0.3125rem;
+    margin-top: 5px;
     font-size: 20px;
-    margin-top: 0.8125rem;
+    margin-top: 13px;
 }
 
 .testimonials-header-three,
 .testimonials-header-four,
 .testimonials-header-five {
- margin-bottom: 1.5rem;
+ margin-bottom: 24px;
 }
 
 .testimonials-text {
     font-size: 13px;
     opacity: 0.5;
     font-weight: 500;
-    line-height: 1.125rem;
-    margin-top: 1rem;
-    padding-right: 0.125rem;
+    line-height: 18px;
+    margin-top: 16px;
+    padding-right: 2px;
 }
 
-@media only screen and (max-width: 70rem) {
+@media only screen and (max-width: 1120px) {
     body {
-        height: 100%;
+        height: 100vh;
     }
     
     .testimonials-grid {
@@ -168,16 +168,16 @@ body {
     }
 
     .article {
-        padding: 1.5rem 2rem 2rem 2rem;
+        padding: 24px 32px 32px 32px;
 
     }
 
     .testimonials-text-one {
-        font: 13.06px;
+        font: 13.0608px;
     }
 }
 
-@media only screen and (max-width: 37.5rem) {
+@media only screen and (max-width: 600px) {
     body {
         height: 100%;
     }
@@ -193,20 +193,20 @@ body {
     }
 
     .article {
-        padding: 1.5rem 2rem 2rem 2rem;
+        padding: 24px 32px 32px 32px;
     }
 
     .testimonials-text {
-        font-size: 13.06px;
+        font-size: 13.0608px;
         padding: 0;
     }
 
     .testimonials-text-one {
-        padding-right: 0.875rem;
+        padding-right: 14px;
     }
 
     .testimonials-header {
-        font-size: 20.1px;
+        font-size: 20.1008px;
     }
 }
 
