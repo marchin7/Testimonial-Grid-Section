@@ -14,6 +14,7 @@
 }
 
 body {
+    font-size: 13px;
     display: grid;
     place-content: center;
     width: 100%;
@@ -158,7 +159,9 @@ body {
     }
     
     .testimonials-grid {
-        grid-template-areas: 
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
         'one one one one'
         'two two five five'
         'three three five five'
@@ -181,6 +184,8 @@ body {
     }
 
     .testimonials-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
         grid-template-areas: 
         'one one one one'
         'two two two two'
