@@ -24,7 +24,7 @@ body {
 
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(4, 15.9375rem);
+    grid-template-columns: repeat(4, 255px);
     row-gap: 1.5rem;
     column-gap: 1.875rem;
     grid-template-areas: 
@@ -133,7 +133,7 @@ body {
     width: 100%;
     font-weight: 600;
     margin-top: 0.3125rem;
-    font-size: 1.25rem;
+    font-size: 20px;
     margin-top: 0.8125rem;
 }
 
@@ -144,7 +144,7 @@ body {
 }
 
 .testimonials-text {
-    font-size: 0.8125rem;
+    font-size: 13px;
     opacity: 0.5;
     font-weight: 500;
     line-height: 1.125rem;
@@ -192,7 +192,7 @@ body {
     }
 
     .testimonials-text {
-        font-size: 0.8163rem;
+        font-size: 13.06px;
         padding: 0;
         word-break: initial;
     }
@@ -202,7 +202,7 @@ body {
     }
 
     .testimonials-header {
-        font-size: 1.2563rem;
+        font-size: 20.1px;
     }
 }
 
