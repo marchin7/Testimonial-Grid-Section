@@ -14,7 +14,6 @@
 }
 
 body {
-    font-size: 13px;
     display: grid;
     place-content: center;
     width: 100%;
@@ -145,7 +144,6 @@ body {
 }
 
 .testimonials-text {
-    font-size: 13px;
     opacity: 0.5;
     font-weight: 500;
     line-height: 18px;
@@ -155,16 +153,16 @@ body {
 
 @media only screen and (max-width: 1120px) {
     body {
-        height: 100vh;
+        height: 100%;
     }
     
     .testimonials-grid {
         grid-template-columns: auto;
         grid-template-areas:
-        'one one one one'
-        'two two five five'
-        'three three five five'
-        'four four four four';
+        'one one '
+        'two five'
+        'three five '
+        'four four';
     }
 
     .article {
@@ -173,7 +171,6 @@ body {
     }
 
     .testimonials-text-one {
-        font: 13.0608px;
     }
 }
 
@@ -197,7 +194,6 @@ body {
     }
 
     .testimonials-text {
-        font-size: 13.0608px;
         padding: 0;
     }
 
@@ -206,7 +202,6 @@ body {
     }
 
     .testimonials-header {
-        font-size: 20.1008px;
     }
 }
 
