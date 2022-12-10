@@ -173,6 +173,10 @@ body {
         padding: 1.5rem 2rem 2rem 2rem;
 
     }
+
+    .testimonials-text-one {
+        font: 13.06px;
+    }
 }
 
 @media only screen and (max-width: 37.5rem) {
@@ -202,7 +206,6 @@ body {
 
     .testimonials-text-one {
         padding-right: 0.875rem;
-        font: 13.06px;
     }
 
     .testimonials-header {
