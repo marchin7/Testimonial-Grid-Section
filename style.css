@@ -155,7 +155,7 @@ body {
 
 @media only screen and (max-width: 1120px) {
     body {
-        height: 100%;
+        height: fit-content;
     }
     
     .testimonials-grid {
@@ -179,7 +179,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        height: 100%;
+        height: fit-content;
     }
 
     .testimonials-grid {
