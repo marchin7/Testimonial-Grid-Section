@@ -1,0 +1,215 @@
+:root {
+--clr-Moderate-violet: hsl(263, 55%, 52%);
+--clr-Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--clr-Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--clr-White: hsl(0, 0%, 100%);
+--clr-Light-gray: hsl(0, 0%, 81%);
+--clr-Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: Barlow Semi Condensed, sans-serif;
+    background-color: var(--clr-Light-grayish-blue);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 15.9375rem);
+    row-gap: 1.5rem;
+    column-gap: 1.875rem;
+    grid-template-areas: 
+    'one one two five'
+    'three four four five';
+    margin: 4rem 1.5rem;
+}
+
+.article:nth-child(1) {
+    grid-area: one;
+}
+
+.article:nth-child(2) {
+    grid-area: two;
+}
+
+.article:nth-child(3) {
+    grid-area: three;
+}
+
+.article:nth-child(4) {
+    grid-area: four;
+}
+
+.article:nth-child(5) {
+    grid-area: five;
+}
+
+.article {
+    color: var(--clr-White);
+    background-color: var(--clr-White);
+    color: var(--clr-White);
+    border-radius: 0.375rem;
+    padding: 1.5rem 2rem 2rem 2rem;
+    box-shadow: 0.8rem 3.75rem 4rem -2rem rgba(80, 90, 110, 0.2);
+}
+
+.article-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-one {
+    background-color: var(--clr-Moderate-violet);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 82%;
+    color: var(--clr-White);
+}
+
+.article-two {
+    background-color: var(--clr-Very-dark-grayish-blue);
+}
+.article-three,
+.article-five {
+    color: var(--clr-Very-dark-grayish-blue);
+    padding: 1.5rem 1.9375rem 1.625rem 2rem;
+}
+.article-four {
+    background-color: var(--clr-Very-dark-blackish-blue);
+    padding: 1.5rem 2.125rem 1.625rem 2rem;
+}
+
+.picture {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.125rem solid transparent;
+}
+
+.picture-one,
+.picture-four {
+    border: 0.125rem solid  rgb(169, 129, 235);
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+.user-status {
+    font-size: 0.6875rem;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.user-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.user-info-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.testimonials {
+    height: 100%;
+}
+
+.testimonials-header {
+    width: 100%;
+    font-weight: 600;
+    margin-top: 0.3125rem;
+    font-size: 1.25rem;
+    margin-top: 0.8125rem;
+}
+
+.testimonials-header-three,
+.testimonials-header-four,
+.testimonials-header-five {
+ margin-bottom: 1.5rem;
+}
+
+.testimonials-text {
+    font-size: 0.8125rem;
+    opacity: 0.5;
+    font-weight: 500;
+    line-height: 1.125rem;
+    margin-top: 1rem;
+    padding-right: 0.125rem;
+}
+
+@media only screen and (max-width: 70rem) {
+    body {
+        height: 100%;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'one one one one'
+        'two two five five'
+        'three three five five'
+        'four four four four';
+    }
+
+    .article {
+        padding: 1.5rem 2rem 2rem 2rem;
+
+    }
+}
+
+@media only screen and (max-width: 37.5rem) {
+    body {
+        height: 100%;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three three'
+        'four four four four'
+        'five five five five';
+    }
+
+    .article {
+        padding: 1.5rem 2rem 2rem 2rem;
+    }
+
+    .testimonials-text {
+        font-size: 0.8163rem;
+        padding: 0;
+        word-break: initial;
+    }
+
+    .testimonials-text-one {
+        padding-right: 0.875rem;
+    }
+
+    .testimonials-header {
+        font-size: 1.2563rem;
+    }
+}
+
+
+
+
+
+
+
+
