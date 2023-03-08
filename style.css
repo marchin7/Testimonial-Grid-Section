@@ -24,14 +24,14 @@ body {
 }
 
 .sr-only {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position:absolute;
-    width: 1px;
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position:absolute !important;
+    width: 1px !important;
 }
 
 .testimonials-grid {
@@ -73,11 +73,6 @@ body {
     border-radius: 0.375rem;
     padding: 1.5rem 2rem 2rem 2rem;
     box-shadow: 0.8rem 3.75rem 4rem -2rem rgba(80, 90, 110, 0.2);
-    transition: transform 0.5s ease-in-out;
-}
-
-.article:hover {
-    transform: scale(102%);
 }
 
 .article-content {
